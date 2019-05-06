@@ -1,5 +1,4 @@
 
-
 function isPrime(value) {
     for(var i = 2; i < value; i++) {
         if(value % i === 0) {
@@ -8,7 +7,6 @@ function isPrime(value) {
     }
     return value > 1;
 }
-
 var primerizer = function(input){
     var factors = [];
     var numStorage = input;
